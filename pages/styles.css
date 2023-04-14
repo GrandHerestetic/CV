@@ -233,6 +233,9 @@ body {
   }
   
   .navbar-wrapper {
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
     z-index: 6;
     display: grid;
     grid-row-start: 1;
