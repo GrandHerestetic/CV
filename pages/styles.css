@@ -34,7 +34,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 21;
   background-color: #88292f;
-  bottom: 30px;
+  bottom: 10px;
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;

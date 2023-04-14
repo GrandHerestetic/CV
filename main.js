@@ -1,13 +1,18 @@
-function changeNavbar() {
-    document.getElementById("app").style.bottom = "30px";
-    document.getElementById("app").style.backgroundColor = "#88292f";
-    document.getElementById("app").style.border = "";
+let start = Date.now(); 
+
+let timer = setInterval(function() {
+  let timePassed = Date.now() - start;
+
+  if (timePassed >= 200) {
+    clearInterval(timer); 
+    return;
   }
 
-  function rechangeNavbar() {
-    document.getElementById("app").style.bottom = "50px";
-    document.getElementById("app").style.backgroundColor = "#88292f";
-    document.getElementById("app").style.border = "1px solid black";
-    document.getElementById("link-1").style.color = "white";
-    document.getElementById("link-2").style.color = "white";
+  rechangeNavbar(timePassed);
+
+}, 10);
+
+
+function rechangeNavbar(timePassed) {
+    document.getElementById("app").style.bottom = timePassed / 4 + 'px';
   }
