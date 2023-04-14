@@ -320,7 +320,7 @@ body {
   .text-1-wrapper {
     display: grid;
     grid-row-start: 6;
-    grid-row-end: 8;
+    grid-row-end: 9;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -335,8 +335,8 @@ body {
   
   .text-2-wrapper {
     display: grid;
-    grid-row-start: 9;
-    grid-row-end: 11;
+    grid-row-start: 10;
+    grid-row-end: 12;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -351,8 +351,8 @@ body {
   
   .text-3-wrapper {
     display: grid;
-    grid-row-start: 12;
-    grid-row-end: 14;
+    grid-row-start: 13;
+    grid-row-end: 16;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -367,8 +367,8 @@ body {
   
   .text-4-wrapper {
     display: grid;
-    grid-row-start: 15;
-    grid-row-end: 17;
+    grid-row-start: 17;
+    grid-row-end: 19;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
