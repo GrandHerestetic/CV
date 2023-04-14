@@ -213,7 +213,8 @@ body {
     justify-self: center;
     height: 150vh;
     width: 70vw;
-    margin: 10vh 15vw;
+    margin: 0;
+    padding: 0;
     background-color: #f5f3f5;
     display: grid;
     grid-template-rows: repeat(20, 5%);
