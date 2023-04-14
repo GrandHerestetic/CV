@@ -1,18 +1,40 @@
-let start = Date.now(); 
+var position = 0;
+function changeNavbar() {
+  let start = Date.now();
+  let timer = setInterval(function () {
+    let timePassed = Date.now() - start;
 
-let timer = setInterval(function() {
-  let timePassed = Date.now() - start;
+    if (position === 0) {
+      clearInterval(timer);
+      console.log(position)
+      return;
+    }
+    if (timePassed >= 200) {
+      clearInterval(timer);
+      position = 0;
+      return;
+    }
 
-  if (timePassed >= 200) {
-    clearInterval(timer); 
+    document.getElementById("app").style.bottom = 60 - timePassed / 4 + "px";
+  }, 20);
+}
+
+function rechangeNavbar() {
+  if (position === 1) {
+    console.log(position)
     return;
   }
+  let start = Date.now();
 
-  rechangeNavbar(timePassed);
+  let timer = setInterval(function () {
+    let timePassed = Date.now() - start;
 
-}, 10);
+    if (timePassed >= 200) {
+      clearInterval(timer);
+      position = 1;
+      return;
+    }
 
-
-function rechangeNavbar(timePassed) {
-    document.getElementById("app").style.bottom = timePassed / 4 + 'px';
-  }
+    document.getElementById("app").style.bottom = timePassed / 4 + "px";
+  }, 20);
+}
