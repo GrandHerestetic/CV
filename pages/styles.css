@@ -206,13 +206,13 @@ body {
 @media screen and (max-width: 600px) {
   body {
     background-color: #3e6990;
-    font-size: clamp(1.5vw, 1.4vh, 2rem);
+    font-size: clamp(3vw, 3vh, 3rem);
   }
   
   .app {
     justify-self: center;
     height: 150vh;
-    width: 70vw;
+    width: 100vw;
     margin: 0;
     padding: 0;
     background-color: #f5f3f5;
@@ -233,18 +233,13 @@ body {
   }
   
   .navbar-wrapper {
-    z-index: 2;
-    position: relative;
+    z-index: 6;
     display: grid;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 21;
     background-color: #88292f;
-    bottom: 13.5px;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
   }
   
   .link-1 {
@@ -292,8 +287,8 @@ body {
 
   .name-wrapper {
     z-index: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
     grid-column-start: 5;
     grid-column-end: 17;
     overflow: hidden;
@@ -303,9 +298,9 @@ body {
   
   .title-wrapper {
     z-index: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    grid-column-start: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
     grid-column-end: 17;
     overflow: hidden;
     vertical-align: bottom;
@@ -316,7 +311,7 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-    font-size: 2.8vw;
+    font-size: 5vw;
     width: 100%;
     height: 100%;
     text-transform: uppercase;
@@ -324,8 +319,8 @@ body {
   
   .text-1-wrapper {
     display: grid;
-    grid-row-start: 7;
-    grid-row-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 8;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -340,8 +335,8 @@ body {
   
   .text-2-wrapper {
     display: grid;
-    grid-row-start: 10;
-    grid-row-end: 12;
+    grid-row-start: 9;
+    grid-row-end: 11;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -356,8 +351,8 @@ body {
   
   .text-3-wrapper {
     display: grid;
-    grid-row-start: 13;
-    grid-row-end: 15;
+    grid-row-start: 12;
+    grid-row-end: 14;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -372,8 +367,8 @@ body {
   
   .text-4-wrapper {
     display: grid;
-    grid-row-start: 16;
-    grid-row-end: 18;
+    grid-row-start: 15;
+    grid-row-end: 17;
     grid-column-start: 4;
     grid-column-end: 19;
     grid-template-rows: repeat(3, auto);
@@ -388,10 +383,10 @@ body {
   
   .name-wrapper {
     z-index: 3;
-    grid-row-start: 4;
-    grid-row-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
     grid-column-start: 4;
-    grid-column-end: 12;
+    grid-column-end: 18;
     overflow: hidden;
     vertical-align: bottom;
     align-self: end;
@@ -401,13 +396,14 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-    font-size: clamp(2.8vw, 2.6vh, 3rem);
+    font-size: clamp(4vw, 4vh, 4rem);
     width: 100%;
     height: 100%;
     text-transform: uppercase;
   }
   
   .icon-wrapper {
+    display: none;
     z-index: 3;
     grid-row-start: 4;
     grid-row-end: span 6;
