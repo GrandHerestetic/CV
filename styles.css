@@ -271,8 +271,8 @@ body {
   .education-wrapper {
     width: 100%;
     height: 100%;
-    grid-row-start: 12;
-    grid-row-end: 16;
+    grid-row-start: 11;
+    grid-row-end: 15;
     grid-column-start: 3;
     grid-column-end: 18;
     overflow: hidden;
@@ -291,8 +291,8 @@ body {
   .personal-information-wrapper {
     width: 100%;
     height: 100%;
-    grid-row-start: 6;
-    grid-row-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 9;
     grid-column-start: 3;
     grid-column-end: 17;
     overflow: hidden;
@@ -326,8 +326,8 @@ body {
   .contact-info-wrapper {
     width: 100%;
     height: 100%;
-    grid-row-start: 16;
-    grid-row-end: 20;
+    grid-row-start: 15;
+    grid-row-end: 19;
     grid-column-start: 3;
     grid-column-end: 17;
     overflow: hidden;
@@ -409,8 +409,8 @@ body {
   
   .skills-wrapper {
     display: grid;
-    grid-row-start: 11;
-    grid-row-end: 11;
+    grid-row-start: 10;
+    grid-row-end: 10;
     grid-column-start: 3;
     grid-column-end: 18;  
     grid-template-rows: 50% 50%;
@@ -432,6 +432,7 @@ body {
       purple
     );
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
   }
