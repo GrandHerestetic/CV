@@ -273,7 +273,7 @@ body {
     height: 100%;
     grid-row-start: 12;
     grid-row-end: 16;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-column-end: 17;
     overflow: hidden;
     display: grid;
@@ -293,7 +293,7 @@ body {
     height: 100%;
     grid-row-start: 6;
     grid-row-end: 10;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-column-end: 17;
     overflow: hidden;
     display: grid;
@@ -328,7 +328,7 @@ body {
     height: 100%;
     grid-row-start: 16;
     grid-row-end: 20;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-column-end: 17;
     overflow: hidden;
     display: grid;
@@ -413,7 +413,7 @@ body {
     display: grid;
     grid-row-start: 11;
     grid-row-end: 11;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-column-end: 18;  
     grid-template-rows: 50% 50%;
   }
