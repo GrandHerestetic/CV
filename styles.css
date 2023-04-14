@@ -42,7 +42,7 @@ body {
   z-index: 3;
   grid-row-start: 4;
   grid-row-end: span 6;
-  grid-column-start: 12;
+  grid-column-start: 13;
   grid-column-end: 18;
   overflow: hidden;
   border: 1px solid black;
